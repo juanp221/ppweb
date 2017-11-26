@@ -1,0 +1,67 @@
+[{
+        "content": "Bootstrap es un framework o conjunto de herramientas de Código abierto para diseño de sitios y aplicaciones web. Contiene plantillas de diseño con tipografía, formularios, botones, cuadros, menús de navegación y otros elementos de diseño basado en HTML y CSS, así como, extensiones de JavaScript opcionales adicionales.Es el proyecto más popular en GitHub1​ y es usado por la NASA y la MSNBC entre otras organizaciones.",
+        "title": "Conoce la técnologia Bootstrap",
+        "link": "https://www.youtube.com/embed/xzZBp0hPX0Y"
+    },
+    {
+        "content": "HTML5 (HyperText Markup Language, versión 5) es la quinta revisión importante del lenguaje básico de la World Wide Web, HTML. HTML5 especifica dos variantes de sintaxis para HTML: una «clásica», HTML (text/html), conocida como HTML5, y una variante XHTML conocida como sintaxis XHTML5 que deberá servirse con sintaxis XML (application/xhtml+xml).1​2​ Esta es la primera vez que HTML y XHTML se han desarrollado en paralelo. La versión definitiva de la quinta revisión del estándar se publicó en octubre de 2014.",
+        "title": "Conoce la técnologia HTML5",
+        "link": "https://www.youtube.com/embed/_93kDSPlKIM"
+    },
+    {
+        "content": "Hojas de estilo en cascada (o CSS, siglas en inglés de Cascading Stylesheets) es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado.2​ Es muy usado para establecer el diseño visual de los documentos web, e interfaces de usuario escritas en HTML o XHTML; el lenguaje puede ser aplicado a cualquier documento XML, incluyendo XHTML, SVG, XUL, RSS, etcétera. También permite aplicar estilos no visuales, como las hojas de estilo auditivas.",
+        "title": "Conoce la técnologia CSS",
+        "link": "https://www.youtube.com/embed/24gNhTcy6pw"
+    },
+    {
+        "content": "Desarrollo web es un término que define la creación de sitios web para Internet o una intranet. Para conseguirlo se hace uso de tecnologías de software del lado del servidor y del cliente que involucran una combinación de procesos de base de datos con el uso de un navegador web a fin de realizar determinadas tareas o mostrar información.",
+        "title": "Conoce sobre el Desarrollo Web",
+        "link": "https://www.youtube.com/embed/FVxJVZSEyqs"
+    },
+    {
+        "content": "Una aplicación móvil, aplicación, apli1​ o app (acortamiento del inglés application) es una aplicación informática diseñada para ser ejecutada en teléfonos inteligentes, tabletas y otros dispositivos móviles y que permite al usuario efectuar una tarea concreta de cualquier tipo —profesional, de ocio, educativas, de acceso a servicios, etc.—, facilitando las gestiones o actividades a desarrollar",
+        "title": "Conoce sobre el Desarrollo Móvil",
+        "link": "https://www.youtube.com/embed/tmZIzqvet9U"
+    },
+    {
+        "content": "Una aplicación de escritorio es aquella que se encuentra instalado en el ordenador o sistema de almacenamiento (USB) y podemos ejecutarlo sin internet en nuestro sistema operativo, al contrario que las aplicaciones en la nube que se encuentran en otro ordenador (servidor) al que accedemos a través de la red o internet a su software.",
+        "title": "Conoce sobre el Desarrollo de Aplicaciones de Escritorio",
+        "link": "https://www.youtube.com/embed/dZsD5c7uqPA"
+    },
+    {
+        "content": "Alkosto es una cadena de almacenes colombiana, comercializadora de electrodomésticos, mercado, llantas, motos y productos del hogar. Tiene presencia en ocho ciudades y municipios del país y, a 2013, cuenta con 2388 empleados a nivel nacional.",
+        "title": "Alkosto",
+        "img": "img/alkosto.png",
+        "link": "http://www.alkosto.com"
+    },
+    {
+        "content": "Grupo Éxito es una empresa multinacional colombiana, realiza actividades de comercio al detal. Es una cadena de almacenes de gran escala en Colombia fundada en 1949 por Gustavo Toro Quintero con presencia en Suramérica (Colombia, Uruguay, Brasil y Argentina), con COP 30,4 billones de ingresos operacionales en diciembre de 2015.",
+        "title": "Grupo Exito",
+        "img": "img/exito.png",
+        "link": "https://www.exito.com/"
+    },
+    {
+        "content": "Almacenes La 14 es una empresa de origen colombiano que se dedica al comercio al detallle de productos de consumo masivo. Cuenta en la actualidad con 18 puntos de venta en la ciudad de Cali, 6 más distribuidos en el departamento del Valle del Cauca y a nivel nacional extiende su operación a las ciudades de Bogotá, Pereira, Manizales, Armenia y Neiva con un total de 26 almacenes en todo el país.",
+        "title": "La 14",
+        "img": "img/la14.png",
+        "link": "http://www.la14.com/Tiendala14/Default.aspx"
+    },
+    {
+        "content": "Google Developers (previously Google Code) is Google's site for software development tools, application programming interfaces (APIs), and technical resources. The site contains documentation on using Google developer tools and APIs—including discussion groups and blogs for developers using Google's developer products.",
+        "title": "Google Developers",
+        "img": "img/googledev.png",
+        "link": "https://developers.google.com/"
+    },
+    {
+        "content": "MSDN (del inglés: Microsoft Developer Network ) puede referirse tanto a los servicios web (basado en plataformas Microsoft) orientados a desarrolladores de software como al conjunto de software que se adjunta con sus compiladores (Visual Studio) y ciertos SDK. .",
+        "title": "Microsoft Developers",
+        "img": "img/msdn.png",
+        "link": "https://msdn.microsoft.com/en-us/dn308572.aspx"
+    },
+    {
+        "content": "Mozilla Firefox (llamado simplemente Firefox) es un navegador web libre y de código abierto8​ desarrollado para Linux, Android, IOS, OS X y Microsoft Windows coordinado por la Corporación Mozilla y la Fundación Mozilla. Usa el motor Gecko para renderizar páginas web, el cual implementa actuales y futuros estándares web.",
+        "title": "Mozilla Developers",
+        "img": "img/mozilla.png",
+        "link": "https://www.mozilla.org/es-ES/"
+    }
+]

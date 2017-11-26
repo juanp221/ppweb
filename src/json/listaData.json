@@ -1,0 +1,25 @@
+[{
+        "name": "Bootstrap",
+        "link": "sol1.html"
+    },
+    {
+        "name": "HTML5",
+        "link": "sol2.html"
+    },
+    {
+        "name": "CSS",
+        "link": "sol3.html"
+    },
+    {
+        "name": "Desarrollo Web",
+        "link": "#"
+    },
+    {
+        "name": "Desarrollo Móvil",
+        "link": "#"
+    },
+    {
+        "name": "Aplicaciones Desktop",
+        "link": "#"
+    }
+]

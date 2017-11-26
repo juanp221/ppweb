@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Desarrolladora Web</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="css/main.css">
+    <!--Metodos de JavaScript-->
+</head>
+
+<body>
+    <!--Menu de navegacion de la pagina-->
+    <nav class="navbar navbar-inverse" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <Button type="button" class="navbar-toggle" data-toggle="collapse" data-target=#myNavbar>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </Button>
+                <a href="#" class="navbar-brand"><img src="img/w3newbie.png"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">Inicio</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Soluciones<b class="caret"></b></a>
+                        <ul class="dropdown-menu" id="listSoluciones">
+                            <li><a href="sol1.html"> Bootstrap </a></li>
+                            <li><a href="sol2.html"> HTML5 </a></li>
+                            <li><a href="sol3.html"> CSS </a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Productos<b class="caret"></b></a>
+                        <ul class="dropdown-menu" id="listProductos">
+                            <li><a href="pro1.html"> Desarrollo Web </a></li>
+                            <li><a href="pro2.html"> Desarrollo Movil </a></li>
+                            <li><a href="pro3.html"> Aplicaciones Desktop </a></li>
+                        </ul>
+                    </li>
+                    <li><a href="clientes.html">Clientes</a></li>
+                    <li><a href="socios.html">Socios</a></li>
+                    <li><a href="recursos.html">Recursos</a></li>
+                    <li><a href="acerca.html">Acerca de Nosotros</a></li>
+                    <li><a href="contacto.html">Contáctenos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Inicio de la galeria de imagenes-->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="img/mountains.png">
+                <div class="carousel-caption">
+                    <h1>Conoce Nuestros Productos</h1>
+                    <br>
+                    <button type="button" class="btn btn-default"> Acerca de Nosotros</button>
+                </div>
+            </div>
+            <!--Fin del primer elemento-->
+            <div class="item">
+                <img src="img/snow.png">
+            </div>
+            <div class="item">
+                <img src="img/red.png">
+            </div>
+        </div>
+        <!--Controles del Slider-->
+        <a href="#myCarousel" class="left carousel-control" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only"> Anterior</span>
+        </a>
+        <a href="#myCarousel" class="right carousel-control" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only"> Siguiente</span>
+        </a>
+    </div>
+    <!--Fin del Slider-->
+
+    <div class="container text-center">
+        <h2>Las tecnologías que utilizamos</h2>
+        <div class="row">
+            <div class=col-sm-4>
+                <img src="img/html5.png" id="icon">
+                <h4>HTML5</h4>
+            </div>
+            <div class=col-sm-4>
+                <img src="img/bootstrap.png" id="icon">
+                <h4>Bootstrap</h4>
+            </div>
+            <div class=col-sm-4>
+                <img src="img/css3.png" id="icon">
+                <h4>CSS3</h4>
+            </div>
+        </div>
+    </div>
+
+    <!--Parte 1 cosas sobre bootstrap-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Algunas cosas interesantes de Bootstrap</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin enim nisi, pharetra non neque id, ullamcorper faucibus magna. Vestibulum sagittis porta congue. Integer id posuere nisl, id auctor augue. Mauris a suscipit enim. Proin non
+                    mi lorem. Sed semper justo hendrerit dignissim interdum. Sed sagittis vulputate posuere. Quisque eget neque eleifend, fringilla velit eget, posuere tortor. Mauris bibendum varius ante, feugiat tempor tellus faucibus eu. Aenean condimentum
+                    lobortis molestie. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras facilisis bibendum tellus, in aliquam mauris. Aenean a tincidunt purus. Phasellus ac lacus id dolor posuere suscipit eu et enim.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin enim nisi, pharetra non neque id, ullamcorper faucibus magna. Vestibulum sagittis porta congue. Integer id posuere nisl, id auctor augue. Mauris a suscipit enim. Proin non
+                    mi lorem. Sed semper justo hendrerit dignissim interdum. Sed sagittis vulputate posuere. Quisque eget neque eleifend, fringilla velit eget, posuere tortor. Mauris bibendum varius ante, feugiat tempor tellus faucibus eu. Aenean condimentum
+                    lobortis molestie. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras facilisis bibendum tellus, in aliquam mauris. Aenean a tincidunt purus. Phasellus ac lacus id dolor posuere suscipit eu et enim.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="img/bootstrap2.jpg" class="img-responsive">
+            </div>
+        </div>
+    </div>
+    <!--Parte otras tecnologias que se utilizan-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <h4>Creado con Saas</h4>
+                <p>Maecenas ultrices, diam a ullamcorper tincidunt, nunc sem sagittis leo, in blandit turpis purus eget leo. Aliquam non velit ut neque varius blandit. Phasellus maximus orci eu lacus congue, id congue ipsum cursus. Praesent quis lacus quis
+                    odio mattis fermentum quis sit amet velit. Mauris at fermentum nisi. Suspendisse potenti. Sed bibendum ullamcorper sem, a sagittis mi posuere nec.</div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <img src="img/sass.png" class="img-responsive">
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <h4>Creado con Less</h4>
+                <p>Maecenas ultrices, diam a ullamcorper tincidunt, nunc sem sagittis leo, in blandit turpis purus eget leo. Aliquam non velit ut neque varius blandit. Phasellus maximus orci eu lacus congue, id congue ipsum cursus. Praesent quis lacus quis
+                    odio mattis fermentum quis sit amet velit. Mauris at fermentum nisi. Suspendisse potenti. Sed bibendum ullamcorper sem, a sagittis mi posuere nec.</div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <img src="img/less.png" class="img-responsive">
+            </div>
+        </div>
+    </div>
+
+    <!--Parte 3 sección que se oculta de la pagina-->
+    <div class="container">
+        <div class="row">
+            <h4><a href="#hidden" data-toggle="collapse"> Quieres aprender más sobre Boostrap?</a></h4>
+            <div id="hidden" class="collapse">
+                <h4>Algunas cosas interesantes de Bootstrap</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin enim nisi, pharetra non neque id, ullamcorper faucibus magna. Vestibulum sagittis porta congue. Integer id posuere nisl, id auctor augue. Mauris a suscipit enim. Proin non
+                    mi lorem. Sed semper justo hendrerit dignissim interdum. Sed sagittis vulputate posuere. Quisque eget neque eleifend, fringilla velit eget, posuere tortor. Mauris bibendum varius ante, feugiat tempor tellus faucibus eu. Aenean condimentum
+                    lobortis molestie. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras facilisis bibendum tellus, in aliquam mauris. Aenean a tincidunt purus. Phasellus ac lacus id dolor posuere suscipit eu et enim.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin enim nisi, pharetra non neque id, ullamcorper faucibus magna. Vestibulum sagittis porta congue. Integer id posuere nisl, id auctor augue. Mauris a suscipit enim. Proin non
+                    mi lorem. Sed semper justo hendrerit dignissim interdum. Sed sagittis vulputate posuere. Quisque eget neque eleifend, fringilla velit eget, posuere tortor. Mauris bibendum varius ante, feugiat tempor tellus faucibus eu. Aenean condimentum
+                    lobortis molestie. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras facilisis bibendum tellus, in aliquam mauris. Aenean a tincidunt purus. Phasellus ac lacus id dolor posuere suscipit eu et enim.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid text-center">
+        <div class="row">
+            <div class="col-sm-4">
+                <h3>Ponte en contacto con nosotros</h3>
+                <br>
+                <h4>Nuestra dirección e información de contacto</h4>
+                </br>
+                <p>info@desarrollo.com</p>
+                <p>312-567-2321</p>
+            </div>
+            <div class="col-sm-4">
+                <h3>Redes sociales</h3>
+                <a href="" class="fa fa-facebook"></a>
+                <a href="" class="fa fa-twitter"></a>
+                <a href="" class="fa fa-google"></a>
+                <a href="" class="fa fa-linkedin"></a>
+                <a href="" class="fa fa-youtube"></a>
+            </div>
+            <div class="col-sm-4">
+                <img src="img/bunny.png" class="icon">
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

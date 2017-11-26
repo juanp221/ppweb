@@ -1,0 +1,123 @@
+/*Ajusta la navbar a los bordes de la pantalla y le da el color morado elimina 
+los espacios en blanco*/
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #5E4485;
+    padding: 1% 0;
+    font-size: 1.2em;
+    border: 0;
+}
+
+
+/*Ajusta el logo de la marca en la navbar*/
+
+.navbar-brand {
+    float: left;
+    min-height: 55px;
+    padding: 0 15px 5px;
+}
+
+
+/*Cambia el color de las opciones del menu cuando el mause pasa sobre el*/
+
+.navbar-inverse .navbar-nav .active a,
+.navbar-inverse .navbar-nav .active a:focus,
+.navbar-inverse .navbar-nav .active a:hover,
+.navbar-inverse .navbar-nav .dropdown a,
+.navbar-inverse .navbar-nav .dropdown a:focus,
+.navbar-inverse .navbar-nav .dropdown a:hover {
+    color: #FFF;
+    background-color: #5E4485;
+}
+
+
+/*Cambia de color el fondo del menu*/
+
+.navbar-inverse .navbar-nav .dropdown .dropdown-menu {
+    background-color: #5E4485;
+}
+
+
+/*Convierte el color de la navbar a blanco*/
+
+.navbar-inverse .navbar-nav li a {
+    color: #d5d5d5;
+}
+
+
+/*Centra y convierte el texto de la galeria en mayuscula*/
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+}
+
+
+/*Le da el estilo al boton de comenzar*/
+
+.btn {
+    font-size: 18px;
+    color: #fff;
+    padding: 12px 22px;
+    background: #5E4485;
+    border: 2px solid #fff;
+}
+
+
+/*Ajusta los iconos de la ventana principal al centro*/
+
+#icon {
+    max-width: 200px;
+    margin: 1% auto;
+}
+
+
+/*Ajusta las margenes del conotedor de los iconos para separalos
+de la galeria*/
+
+.container {
+    margin: 4% auto;
+}
+
+footer {
+    width: 100%;
+    background-color: #5E4485;
+    padding: 5%;
+    color: #fff;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.fa:hover {
+    color: #d5d5d5;
+    text-decoration: none;
+}
+
+
+/*Desaparece el texto y el boton de la galeria*/
+
+@media (max-width: 900px) {
+    .fa {
+        font-size: 20px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+    #icon {
+        max-width: 150px;
+    }
+    h4 {
+        font-size: 1.7em;
+    }
+}

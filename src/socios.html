@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Socios</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="css/main.css">
+    <!--Metodos de JavaScript-->
+    <script src="scripts/readContent.js"></script>
+</head>
+
+<body>
+    <!--Menu de navegacion de la pagina-->
+    <nav class="navbar navbar-inverse" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <Button type="button" class="navbar-toggle" data-toggle="collapse" data-target=#myNavbar>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </Button>
+                <a href="#" class="navbar-brand"><img src="img/w3newbie.png"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">Inicio</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Soluciones<b class="caret"></b></a>
+                        <ul class="dropdown-menu" id="listSoluciones">
+                            <li><a href="sol1.html"> Bootstrap </a></li>
+                            <li><a href="sol2.html"> HTML5 </a></li>
+                            <li><a href="sol3.html"> CSS </a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Productos<b class="caret"></b></a>
+                        <ul class="dropdown-menu" id="listProductos">
+                            <li><a href="pro1.html"> Desarrollo Web </a></li>
+                            <li><a href="pro2.html"> Desarrollo Movil </a></li>
+                            <li><a href="pro3.html"> Aplicaciones Desktop </a></li>
+                        </ul>
+                    </li>
+                    <li><a href="clientes.html">Clientes</a></li>
+                    <li><a href="socios.html">Socios</a></li>
+                    <li><a href="recursos.html">Recursos</a></li>
+                    <li><a href="acerca.html">Acerca de Nosotros</a></li>
+                    <li><a href="contacto.html">Contáctenos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Parte 1 cosas sobre bootstrap-->
+    <div class="container">
+        <div class="row" id="listContent">
+        </div>
+    </div>
+    <!--Parte otras tecnologias que se utilizan-->
+    <div class="container">
+        <div class="row" id="listContent2">
+        </div>
+    </div>
+
+    <footer class="container-fluid text-center">
+        <div class="row">
+            <div class="col-sm-4">
+                <h3>Ponte en contacto con nosotros</h3>
+                <br>
+                <h4>Nuestra dirección e información de contacto</h4>
+                </br>
+                <p>info@desarrollo.com</p>
+                <p>312-567-2321</p>
+            </div>
+            <div class="col-sm-4">
+                <h3>Redes sociales</h3>
+                <a href="" class="fa fa-facebook"></a>
+                <a href="" class="fa fa-twitter"></a>
+                <a href="" class="fa fa-google"></a>
+                <a href="" class="fa fa-linkedin"></a>
+                <a href="" class="fa fa-youtube"></a>
+            </div>
+            <div class="col-sm-4">
+                <img src="img/bunny.png" class="icon">
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
