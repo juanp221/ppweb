@@ -1,6 +1,6 @@
 Para ejecutar el sitio web abrir una terminal 
 y ejercutar la instrucción
-sh iniciar
+sh iniciar.sh
 
 Esto instalara la imagen de docker y despues correra el sitio web en el puerto local 80
 
