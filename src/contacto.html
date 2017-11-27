@@ -14,6 +14,8 @@
     <script src="scripts/bootstrap-formhelpers-countries.es_ES.js"></script>
     <link rel="stylesheet" href="css/main.css">
     <!--Metodos de JavaScript-->
+    <!-- <script language="JavaScript" type="text/javascript" src="scripts/email.js"></script>
+    -->
 </head>
 
 <body>
@@ -68,7 +70,7 @@
             <div class="col-md-12">
                 <!-- Aqui comienza el formulario -->
                 <div class="fcontacto">
-                    <form method="POSt" name="fcontacto" id="fcontacto" action="./">
+                    <<form name="fcontacto" id="fcontacto" action="https://formspree.io/juanp221@gmail.com" method="POST">
                         <div class="row">
                             <div class="col-md-6">
                                 <label>Nombre:</label>
@@ -105,10 +107,16 @@
                         </select>
                         <label>Tu Mensaje:</label>
                         <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="form-control"></textarea>
-                        <input type="submit" class="btn btn-info" value="Enviar">
-
                         <div id="respuesta" style="display: none;"></div>
-                    </form>
+
+                        <input type="submit" class="btn btn-info" value="Enviar">
+                        </form>
+
+                        <form action="https://formspree.io/juanp221@gmail.com" method="POST">
+                            <input type="text" name="name">
+                            <input type="email" name="_replyto">
+                            <input type="submit" value="Send">
+                        </form>
                 </div>
             </div>
         </div>
